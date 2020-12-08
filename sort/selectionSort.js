@@ -2,9 +2,6 @@
  * 选择排序
  * 从小到大
  */
-
-const data = [1, 8, 4, 9, 2, 10, 0, -1]
-
 let swap = function (arr, from, to) {
     [arr[from], arr[to]] = [arr[to], arr[from]]
 }
@@ -28,4 +25,4 @@ let selectionSort = arr => {
     return arr;
 }
 
-console.log(selectionSort(data))
+console.log(selectionSort([1, 8, 4, 9, 2, 10, 0, -1]))

@@ -2,9 +2,6 @@
  * 插入排序
  * 从小到大
  */
-
-const data = [1, 8, 4, 9, 2, 10, 0, -1]
-
 let swap = function (arr, from, to) {
     [arr[from], arr[to]] = [arr[to], arr[from]]
 }
@@ -25,4 +22,4 @@ let insertionSort = arr => {
     return arr;
 }
 
-console.log(insertionSort(data))
+console.log(insertionSort([1, 8, 4, 9, 2, 10, 0, -1]))
